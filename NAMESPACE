@@ -2,6 +2,9 @@
 
 export(extract_best_min_loss)
 export(multi_runs)
+export(single_run)
 importFrom(Rcpp,sourceCpp)
 importFrom(Rfast,Dist)
+importFrom(stats,hclust)
+importFrom(stats,model.matrix)
 useDynLib(TRIFASE, .registration = TRUE)

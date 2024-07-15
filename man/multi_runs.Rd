@@ -30,7 +30,3 @@ multi_runs(
 \description{
 TRIFASE multi run
 }
-\examples{
-...
-
-}

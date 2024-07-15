@@ -1,15 +1,15 @@
 Package: TRIFASE
 Type: Package
 Title: Spatially informed co-clustering model
-Version: 0.0.1
-Date: 2023-11-30
+Version: 0.0.2
+Date: 2024-05-26
 Author: Francesco Denti
 Maintainer: Francesco Denti <francescodenti.personal@gmail.com>
 Description: Functions to fit the TRIFASE algorithm for spatially informed matrix co-clustering.
 License: MIT + file LICENSE
 Imports: 
-    Rcpp (>= 1.0.11),
+    Rcpp,
     Rfast
 LinkingTo: Rcpp, RcppArmadillo
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.1
 Encoding: UTF-8
